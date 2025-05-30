@@ -17,6 +17,5 @@ All trademarks including **Mychainos™**, **Spirida™**, and **Spiralbase™**
 
 ## Hash for verification
 
-### SHA256 for Spirida & Spiralbase v.0.5.pdf:                                              
-D749B6F2286A8E4C573F0FD561BDCCAFF17DA97E99B4DB99D90BB7EF416A602D 
-
+### SHA256 for Spirida & Spiralbase v.0.6.pdf:                                              
+A3DEEAA394668BEA515CC60021F1ECD76ED6215F867566144A92527F4B575371
