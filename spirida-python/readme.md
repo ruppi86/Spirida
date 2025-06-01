@@ -39,3 +39,42 @@ The core of Spirida is the `spiral_interaction` function, which simulates a simp
 from spirida.core import spiral_interaction
 
 spiral_interaction(presence=3, rythm="slow", singular=True)
+```
+
+will produce a slow, pulsing text output, illustrating the idea of a "spiral" interaction cycle. You should see a gentle oscillation of symbols or messages that appear and disappear rhythmically with pauses in between. This simulates technology taking slow breaths – engaging and then resting, rather than racing continuously.
+## Version 0.1 Status
+This is **version 0.1** of Spirida – a conceptual prototype. It is not feature-complete or optimized for production. Instead, it serves as a blueprint and conversation starter:
+
+- **Minimal Functionality:** Only basic demonstration features are implemented (e.g. a simple spiral_interaction loop).
+- **Expressive Code:** The code prioritizes clarity and tone, using comments and docstrings to convey intention and mood.
+- **Expansion Ahead:** Many functions and ideas (especially in Spiralbase) are left as placeholders for future development. We invite slow and thoughtful expansion of this ecosystem – use gently, expand with care, forget as needed.
+
+Spirida 0.1 is a reminder that technology can be slow, poetic, and aligned with human rhythms. As Mychainos grows, Spirida will grow with it, keeping a spiral heartbeat at the center of the experience.
+
+**spirida/__init__.py**  
+```python
+"""
+Spirida: The rhythmic interaction core of Mychainos.
+
+This package orchestrates spiral, rhythmic interactions in a minimal and meditative way. 
+It embraces slow technology principles and a presence-centric design, aiming to add gentle 
+timing and awareness to digital experiences.
+
+Use gently. Expand with care. Forget as needed.
+"""
+```
+
+## License
+
+All non-code content (including texts, diagrams, and documentation) in this repository is licensed under:
+
+**Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**  
+→ https://creativecommons.org/licenses/by-sa/4.0/
+
+For any future code, hardware schematics, or biological protocols, the following licenses may apply depending on scope:
+
+- Code: GNU GPLv3 or MIT (to be specified per module)
+- Hardware: CERN OHL v2
+- Biological constructs: OpenMTA
+
+All trademarks including **Mychainos™**, **Spirida™**, and **Spiralbase™** are protected under application by Langell Konsult AB.
