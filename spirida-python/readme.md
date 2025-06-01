@@ -51,18 +51,6 @@ This is **version 0.1** of Spirida – a conceptual prototype. It is not feature
 
 Spirida 0.1 is a reminder that technology can be slow, poetic, and aligned with human rhythms. As Mychainos grows, Spirida will grow with it, keeping a spiral heartbeat at the center of the experience.
 
-**spirida/__init__.py**  
-```python
-"""
-Spirida: The rhythmic interaction core of Mychainos.
-
-This package orchestrates spiral, rhythmic interactions in a minimal and meditative way. 
-It embraces slow technology principles and a presence-centric design, aiming to add gentle 
-timing and awareness to digital experiences.
-
-Use gently. Expand with care. Forget as needed.
-"""
-```
 
 ## License
 
