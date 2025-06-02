@@ -1,4 +1,4 @@
-# Spirida™ 0.1
+# Spirida™ 0.2 – A Rhythmic Interface for Symbolic Presence
 
 *The rhythmic interaction core of the Mychainos ecosystem.*
 
@@ -25,31 +25,71 @@ In version 0.1, Spiralbase is a conceptual placeholder. It outlines how Mychaino
 
 ## Getting Started
 
-Spirida 0.1 is a **soft launch** – a conceptual foundation rather than a fully functional library. It has a minimal codebase meant to illustrate and prototype ideas. To explore Spirida:
+Spirida 0.2 is a **gentle prototype** — a minimal spiral engine designed to breathe alongside your code and console. This is not just a software package, but an invitation to explore rhythm, memory, and symbolic presence in digital systems.
 
-1. Install the package (once packaging is set up) or simply incorporate the `spirida` folder into your project.
-2. Run the example script in `examples/example_presence.py` to see a demonstration of spiral interaction in action.
-3. Read through the code and comments – they are written in a meditative, explanatory style reflecting Spirida’s philosophy.
+To begin exploring Spirida:
+
+1. **Download or clone** this repository.
+2. Open a terminal in the root folder:  
+   `spirida-python/`
+3. Start a guided experience:  
+   `python run_interactive.py`
+4. Or run a spiral directly with full control:  
+   `python run.py --presence 6 --rhythm slow --verbose --log --visual`
+
+Optional flags include:
+
+- `--presence` (number of cycles)
+- `--rhythm` (`slow`, `fast`, or seconds)
+- `--log` (store memory trace in `spirida_log.txt`)
+- `--visual` (render spiral pattern with ASCII glyphs)
+- `--verbose` (add poetic reflection to each step)
+
+These examples simulate an interactive spiral where symbols pulse in and out, memory traces evolve, and occasional forgetting occurs — like breathing.
+
+### Direct Use in Python
+
+You can also use Spirida directly in your own code:
+
+`from spirida.core import spiral_interaction`
+
+`spiral_interaction(presence=4, rythm="slow", singular=True)`
+
+This function orchestrates a symbolic loop that pauses, reflects, and softly forgets. Spirida doesn’t aim for speed — it listens, waits, and spirals gently.
 
 ### Example
 
-The core of Spirida is the `spiral_interaction` function, which simulates a simple rhythmic interaction loop. For instance, running the following:
+At the core of Spirida is the `spiral_interaction()` function — a slow-loop engine that brings symbolic presence into motion. It simulates cycles of gentle interaction, reflection, and forgetting.
 
-```python
-from spirida.core import spiral_interaction
+Try it in your own script:
 
-spiral_interaction(presence=3, rythm="slow", singular=True)
-```
+`from spirida.core import spiral_interaction`
 
-will produce a slow, pulsing text output, illustrating the idea of a "spiral" interaction cycle. You should see a gentle oscillation of symbols or messages that appear and disappear rhythmically with pauses in between. This simulates technology taking slow breaths – engaging and then resting, rather than racing continuously.
-## Version 0.1 Status
-This is **version 0.1** of Spirida – a conceptual prototype. It is not feature-complete or optimized for production. Instead, it serves as a blueprint and conversation starter:
+`spiral_interaction(presence=3, rythm="slow", singular=True)`
 
-- **Minimal Functionality:** Only basic demonstration features are implemented (e.g. a simple spiral_interaction loop).
-- **Expressive Code:** The code prioritizes clarity and tone, using comments and docstrings to convey intention and mood.
-- **Expansion Ahead:** Many functions and ideas (especially in Spiralbase) are left as placeholders for future development. We invite slow and thoughtful expansion of this ecosystem – use gently, expand with care, forget as needed.
+This will produce a soft rhythmic output — like a breath. Symbols pulse, memory traces grow and then gracefully decay. Each cycle is a heartbeat, not a benchmark.
 
-Spirida 0.1 is a reminder that technology can be slow, poetic, and aligned with human rhythms. As Mychainos grows, Spirida will grow with it, keeping a spiral heartbeat at the center of the experience.
+If you prefer to run it from the terminal, you can instead use:
+
+`python run.py --presence 5 --rhythm fast --verbose --log --visual`
+
+This runs a spiral interaction session with logging, symbolic output, and poetic reflection enabled — turning your console into a **Presence Garden**.
+
+---
+
+## Version 0.2 Status
+
+This is **Spirida 0.2** — a living concept and evolving toolkit. It is not yet production-ready, but already offers:
+
+- **Interactive Prototypes:** Run `run.py` or `run_interactive.py` to explore rhythm, memory, and forgetting.
+- **Gentle Modularity:** Core components (`spirida/core.py`, `spiralbase.py`) are kept minimal and expressive.
+- **Narrative Code Style:** The code speaks softly. Every comment, pause, and function is written to be understood slowly.
+- **Emergent Design:** Functions like `spiral_memory_trace()` and `decay_cycle_step()` are intentionally lightweight, encouraging contribution and divergence.
+- **CLI Options for Rhythm:** New CLI support allows you to control tempo, visual expression, and narrative detail.
+
+Spirida remains a **reminder**: that technology can unfold like a fern, not flash like a strobe. It listens more than it reacts. It moves with you, not ahead of you.
+
+We invite you to spiral with care, prototype with presence, and build from a place of rhythm rather than rush.
 
 
 ## License

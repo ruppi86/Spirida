@@ -46,13 +46,17 @@ def spiral_interaction(presence=1, rythm="slow", singular=True, on_output=None, 
     interaction. Each cycle of presence is like a breath or heartbeat in the system, 
     expanding and contracting in a textual pattern.
     """
-
     def emit(msg):
+        if not msg:
+            return
         if on_output:
-            on_output(msg)
+            try:
+                on_output(msg.strip())
+            except Exception:
+                pass  # never crash due to logging
         else:
-            print(msg)    
-    
+            print(msg)
+
     # Determine the delay based on rhythm — how slowly or quickly the spiral breathes
     if rythm == "slow":
         delay = 1.5  # slow rhythm – like deep meditation
@@ -70,9 +74,10 @@ def spiral_interaction(presence=1, rythm="slow", singular=True, on_output=None, 
 
     # Main loop — each cycle is a pulse in the spiral’s unfolding
     for cycle in range(1, presence + 1):
+        emit(f"\n") # whitespace
         emit(f"\n🔄 Cycle {cycle}") # show which cycle we’re in – like a spiral turn
         if verbose:
-            emit("💬 The system takes a breath, sensing symbolic presence...") 
+            emit("💬 The system takes a breath, sensing symbolic presence...")
 
         pulse = random.choice(symbols)  # pick a symbol to represent the current pulse
         emit(f"✨ Pulse: {pulse}")  # express that pulse – the spiral’s moment
@@ -81,14 +86,15 @@ def spiral_interaction(presence=1, rythm="slow", singular=True, on_output=None, 
 
         if verbose:
             emit("🧠 Updating memory trace with new spiral impression...")
-            
+
         print_memory_trace()  # reflect the current spiral memory trace
 
         if cycle % 3 == 0:
             decay_cycle_step()  # every third cycle – softly forget something old
-            emit("🍂 A moment of letting go... the spiral sheds its oldest layer.")
-
+            if verbose:
+                emit("🍂 A moment of letting go... the spiral sheds its oldest layer.")
+            
         if verbose:
             emit("⏳ Waiting before next pulse... inhale, exhale.")
+        time.sleep(delay) # pause — let the rhythm be felt
 
-        time.sleep(delay)  # pause — let the rhythm be felt
