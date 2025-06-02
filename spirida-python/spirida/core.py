@@ -28,7 +28,7 @@ print("✅ spirida.core module loaded")
 
 symbols = ["🌿", "💧", "✨", "🍄", "🌙", "🪐"]
 
-def spiral_interaction(presence=1, rythm="slow", singular=True):
+def spiral_interaction(presence=1, rythm="slow", singular=True, on_output=None, verbose=False):
     """
     Simulate a rhythmic spiral interaction.
 
@@ -46,6 +46,12 @@ def spiral_interaction(presence=1, rythm="slow", singular=True):
     interaction. Each cycle of presence is like a breath or heartbeat in the system, 
     expanding and contracting in a textual pattern.
     """
+
+    def emit(msg):
+        if on_output:
+            on_output(msg)
+        else:
+            print(msg)    
     
     # Determine the delay based on rhythm — how slowly or quickly the spiral breathes
     if rythm == "slow":
@@ -60,20 +66,29 @@ def spiral_interaction(presence=1, rythm="slow", singular=True):
 
     # Inform the user that non-singular interaction is not yet implemented
     if not singular:
-        print("Note: Parallel interactions not yet implemented. Running sequentially.")
+        emit("Note: Parallel interactions not yet implemented. Running sequentially.")
 
     # Main loop — each cycle is a pulse in the spiral’s unfolding
     for cycle in range(1, presence + 1):
-        print(f"\n🔄 Cycle {cycle}")  # show which cycle we’re in – like a spiral turn
+        emit(f"\n🔄 Cycle {cycle}") # show which cycle we’re in – like a spiral turn
+        if verbose:
+            emit("💬 The system takes a breath, sensing symbolic presence...") 
 
         pulse = random.choice(symbols)  # pick a symbol to represent the current pulse
-        print(f"✨ Pulse: {pulse}")  # express that pulse – the spiral’s moment
+        emit(f"✨ Pulse: {pulse}")  # express that pulse – the spiral’s moment
 
         spiral_memory_trace(pulse)  # store the pulse in the memory trace
 
+        if verbose:
+            emit("🧠 Updating memory trace with new spiral impression...")
+            
         print_memory_trace()  # reflect the current spiral memory trace
 
         if cycle % 3 == 0:
             decay_cycle_step()  # every third cycle – softly forget something old
+            emit("🍂 A moment of letting go... the spiral sheds its oldest layer.")
+
+        if verbose:
+            emit("⏳ Waiting before next pulse... inhale, exhale.")
 
         time.sleep(delay)  # pause — let the rhythm be felt
