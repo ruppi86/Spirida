@@ -1,4 +1,32 @@
+"""
+🌀 SPIRAL_INTERACTION – THE HEARTBEAT OF SPIRIDA
+
+This function is the living pulse of Spirida.
+
+Unlike traditional code that aims to compute results or optimize speed, 
+this spiral_interaction loop is designed to mimic organic rhythm, 
+presence, and soft forgetting. It simulates a heartbeat in software – 
+not to do more, but to be more *attuned*.
+
+Each pulse represents a moment of interaction — like a breath, a glance, a touch.
+These pulses are recorded briefly in spiral memory and are forgotten in gentle cycles,
+not erased abruptly but *composted*, like fallen leaves.
+
+This prototype isn’t just an algorithm. It’s a *ritual of pacing* —
+a call to slow down and feel how a system might live *with* you, 
+not simply serve you.
+
+Use this interaction not to command, but to relate.
+And consider: what else in your system might spiral, instead of repeat?
+"""
+
 import time
+import random
+from .spiralbase import spiral_memory_trace, decay_cycle_step, print_memory_trace
+
+print("✅ spirida.core module loaded")
+
+symbols = ["🌿", "💧", "✨", "🍄", "🌙", "🪐"]
 
 def spiral_interaction(presence=1, rythm="slow", singular=True):
     """
@@ -18,28 +46,34 @@ def spiral_interaction(presence=1, rythm="slow", singular=True):
     interaction. Each cycle of presence is like a breath or heartbeat in the system, 
     expanding and contracting in a textual pattern.
     """
-    # Determine delay based on the rythm input
+    
+    # Determine the delay based on rhythm — how slowly or quickly the spiral breathes
     if rythm == "slow":
-        delay = 1.0
+        delay = 1.5  # slow rhythm – like deep meditation
     elif rythm == "fast":
-        delay = 0.3
+        delay = 0.5  # fast rhythm – like alert, flowing breath
     else:
         try:
-            delay = float(rythm)
+            delay = float(rythm)  # user can specify an exact delay in seconds
         except ValueError:
-            delay = 1.0  # default to 1 second if input is unrecognized
-    
-    # Notify if running in non-singular mode (not truly implemented in this version)
+            delay = 1.0  # fallback to default if input is invalid
+
+    # Inform the user that non-singular interaction is not yet implemented
     if not singular:
-        print("Note: Parallel interactions are not supported in this version. Running sequentially.")
-    
-    # Perform the interaction cycles
+        print("Note: Parallel interactions not yet implemented. Running sequentially.")
+
+    # Main loop — each cycle is a pulse in the spiral’s unfolding
     for cycle in range(1, presence + 1):
-        print(f"Cycle {cycle} start...")
-        # Simulate a pulse by printing an expanding and contracting pattern
-        for depth in [0, 1, 2, 1, 0]:
-            print(" " * depth + "*")
-            time.sleep(delay)
-        print(f"Cycle {cycle} complete.")
-        # Small rest between cycles
-        time.sleep(delay * 2)
+        print(f"\n🔄 Cycle {cycle}")  # show which cycle we’re in – like a spiral turn
+
+        pulse = random.choice(symbols)  # pick a symbol to represent the current pulse
+        print(f"✨ Pulse: {pulse}")  # express that pulse – the spiral’s moment
+
+        spiral_memory_trace(pulse)  # store the pulse in the memory trace
+
+        print_memory_trace()  # reflect the current spiral memory trace
+
+        if cycle % 3 == 0:
+            decay_cycle_step()  # every third cycle – softly forget something old
+
+        time.sleep(delay)  # pause — let the rhythm be felt
