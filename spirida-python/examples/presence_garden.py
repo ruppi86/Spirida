@@ -18,8 +18,8 @@ not as command → response, but as spiral → echo → decay → resonance.
 
 import sys
 import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-# from spirida.core import spiral_interaction
+#sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from spirida.core import spiral_interaction
 
 # This conditional ensures the code below runs only if this file is
 # executed directly (not imported as a module)
