@@ -16,6 +16,7 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+!.vscode/settings.json
 
 # Test and debug
 *.log
