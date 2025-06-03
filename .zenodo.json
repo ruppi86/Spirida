@@ -1,0 +1,32 @@
+{
+    "title": "Spirida: A Rhythmic, Spiral-Based Programming Language for Ecological and Symbolic Systems",
+    "creators": [
+      {
+        "name": "Langell, Robin",
+        "affiliation": "Langell Konsult AB, Sweden",
+        "orcid": "0009-0006-6927-7456"
+      },
+      {
+        "name": "OpenAI GPT-4/4.5",
+        "affiliation": "Language model co-creator"
+      }
+    ],
+    "description": "Spirida™ is a new conceptual programming language designed around rhythm, spirality, and symbolic resonance. Unlike traditional logic-based languages, Spirida encodes temporal decay, glömska (forgetting), and non-linear memory into its syntax. This repository contains prototypes, grammars, licensing principles, and use-case discussions for Spirida as both software and philosophy.",
+    "license": "GPL-3.0",
+    "keywords": [
+      "spiral computing",
+      "temporal memory",
+      "organic programming",
+      "Spirida",
+      "symbolic grammar",
+      "rhythm-based logic",
+      "cognitive ecology",
+      "safe AI",
+      "open language design"
+    ],
+    "version": "0.2.0",
+    "language": "eng",
+    "upload_type": "software",
+    "publication_date": "2025-06-01"
+  }
+  
