@@ -1,13 +1,36 @@
 # Spirida™
 
+**A spiral-based symbolic language for rhythm, resonance, and regenerative computation.**
 
+Spirida™ is a conceptual programming language grounded in spirality, forgetting (glömska), and resonance rather than linear logic. It is part of the broader Mychainos™ framework and interfaces naturally with Spiralbase™, a temporal memory architecture. This repository contains early prototypes, Python code, and conceptual documentation.
 
-## Hash for verification
+---
 
-### SHA256 for Spirida & Spiralbase v.0.6.pdf:                                              
+## ✨ Project Scope
+
+* Symbolic grammars based on rhythmic patterns
+* Temporal decay and memory fading as core logic
+* Experimental interpreters and data models under `spirida-python/`
+* Integration with Spiralbase for time-aware knowledge systems
+
+Spirida is not just a language – it is a new epistemic rhythm.
+
+---
+
+## 🌀 Repository Structure
+
+* `spirida-python/` – early interpreter experiments, memory decay models
+* `docs/` – conceptual outlines and vision documents
+* `examples/` – sample grammars and use cases (coming soon)
+
+---
+
+## 🔒 Hash for verification
+
+**SHA256 for Spirida & Spiralbase v.0.6.pdf:**
 A3DEEAA394668BEA515CC60021F1ECD76ED6215F867566144A92527F4B575371
 
-## Appendix A: Licensing and Stewardship
+## Licensing and Stewardship
 
 > “What we seed in openness, we harvest in resilience.”
 
