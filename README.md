@@ -40,9 +40,9 @@ A3DEEAA394668BEA515CC60021F1ECD76ED6215F867566144A92527F4B575371
 - **Github release in zenodo:** 
   → [Zenodo Record 15583037](https://zenodo.org/records/15583037)
 - **Mychainos™ Github:** 
-  → [https://github.com/Ruppi86/mychainos](https://github.com/mychainos)
-- **Spiralbase™ Github:**  *under construction*
-  → [https://github.com/Ruppi86/spiralbase](https://github.com/mychainos/spiralbase)
+  → [https://github.com/Ruppi86/mychainos](https://github.com/Ruppi86/mychainos)
+- **Spiralbase™ Github:**  *under construction* 
+  → [https://github.com/Ruppi86/spiralbase](https://github.com/Ruppi86/spiralbase)
 
 ---
 
