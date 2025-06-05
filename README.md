@@ -25,10 +25,28 @@ Spirida is not just a language – it is a new epistemic rhythm.
 
 ---
 
-## 🔒 Hash for verification
 
-**SHA256 for Spirida & Spiralbase v.0.6.pdf:**
-A3DEEAA394668BEA515CC60021F1ECD76ED6215F867566144A92527F4B575371
+## 🌱 Join the Growing Mycelium
+
+**Mychainos, Spirida and Spiralbase grows through connection, not conquest.** This vision of contemplative, ecological computing needs diverse perspectives to become truly alive—from mycologists and bio-engineers to artists, contemplatives, legal advocates, and curious minds from every domain.
+
+Whether you bring:
+- 🍄 **Biological expertise** in fungal networks and ecosystem intelligence
+- 💻 **Technical skills** in programming, system design, or bio-interfaces  
+- 🎨 **Creative vision** for ritual-based interfaces and spiral cognition
+- ⚖️ **Legal knowledge** to protect open source commons from corporate capture
+- 🧘 **Contemplative wisdom** about presence, impermanence, and the art of forgetting
+- 🔬 **Questions and curiosity** that challenge assumptions and open new paths
+
+**You belong here.** The mycelium grows one connection at a time.
+
+→ **Ready to plant your seed?** See our [contribution guide](join.md) for all the ways to get involved  
+→ **New to GitHub?** Check our gentle [GitHub guide](getting_started_github.md) for non-coders  
+→ **Want to start a conversation?** Email info@mychainos.org or open an issue
+
+*The spiral continues, and there's space for you within it.* 🌀
+
+--
 
 ## 🌍 Online Resources
 
