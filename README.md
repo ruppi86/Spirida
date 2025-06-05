@@ -32,7 +32,7 @@ A3DEEAA394668BEA515CC60021F1ECD76ED6215F867566144A92527F4B575371
 
 ## 🌍 Online Resources
 
-- **Official website:** [https://www.mychainos.org](https://www.mychainos.org)  *under construction*
+- **Official website:** [https://www.mychainos.org](https://www.mychainos.org) 
 - **Foundational essay:** *Beyond a Piktun: Remembering in the Age of Restart through a Resilient Mycelic Operating System*  
   → [Zenodo Record 15542063](https://zenodo.org/records/15542063)  
 - **Technical supplement:** *Spirida & Spiralbase – A Biocomputational Language and Memory System for Rhythmic, Regenerative Computing*  
@@ -41,7 +41,7 @@ A3DEEAA394668BEA515CC60021F1ECD76ED6215F867566144A92527F4B575371
   → [Zenodo Record 15583037](https://zenodo.org/records/15583037)
 - **Mychainos™ Github:** 
   → [https://github.com/Ruppi86/mychainos](https://github.com/Ruppi86/mychainos)
-- **Spiralbase™ Github:**  *under construction* 
+- **Spiralbase™ Github:** 
   → [https://github.com/Ruppi86/spiralbase](https://github.com/Ruppi86/spiralbase)
 
 ---
